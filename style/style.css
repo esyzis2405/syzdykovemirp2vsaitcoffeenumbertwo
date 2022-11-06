@@ -1,0 +1,439 @@
+
+body > h1 , p {
+    font-family: "Inter";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 37px;
+    padding-bottom: 37px;
+    
+    width: 100%;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+}
+
+.header_search > p {
+    padding-left: 12px;
+}
+
+.header_navigation > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 60px;
+
+    color: #000000;
+}
+
+.header_navigation-nav_and_socials {
+    align-items: center;
+    padding-right: 90px;
+}
+
+.header_search,  .header_navigation-nav_and_socials{
+    display: flex;
+}
+
+.header_navigation-nav_and_socials > img {
+    margin-left: 30px;
+}
+
+.header_navigation-nav_and_socials > :nth-child(2) {
+    padding-left: 12px;
+}
+
+.to_background{
+    width: 100%;
+    background: url("../img/Rectangle\ 4.jpg");
+}
+
+.header_title_and_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.header_main_title > h1, .header_main_title > div > h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.header_main_title > div {
+    display: flex;
+    align-items: center;
+}
+
+.header_main_title > div > img {
+    padding-left: 15px;
+
+}
+
+.header_main_title > p {
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    /* 700 */
+    color: #4A5568;
+}
+
+.header_long_established {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 243px;
+}
+
+.long_established {
+    border: 1px solid #E2E2E2;
+    width: 100%;
+    display: flex;
+    padding-left: 53px;
+    align-items: center;
+}
+
+.long_established > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D3748;
+}
+
+.long_established > div > p {
+    margin-top: 27px;
+    width: 404px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* 600 */
+    color: #718096;
+}
+
+.long_established > div > div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.long_established > div > div > :first-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* identical to box height */
+
+    /* 600 */
+    color: #718096;
+}
+
+.long_established > div > div > :last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* identical to box height */
+
+    /* 800 */
+    color: #2D3748;
+}
+
+.about {
+    margin-top: 43px;
+}
+
+.three_long_established {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three_long_established > div {
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+    width: 300px;
+    height: 382px;
+}
+
+.three_long_established > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    padding-top: 18px;
+
+    /* 800 */
+    color: #2D3748;
+}
+
+.three_long_established > div > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* 600 */
+    color: #718096;
+
+    padding-top: 15px;
+}
+
+
+
+.three_long_established > div > div {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three_long_established > div > div > :last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
+
+.three_long_established > div > div > :first-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+}
+
+.three_long_established > div > h1 {
+    padding-top: 18px;
+    padding-left: 17px;
+}
+
+.three_long_established > div > p {
+    padding-left: 17px;
+    padding-right: 25px;
+    width: 260px;
+}
+
+.three_long_established > div > div {
+    padding-left: 17px;
+    padding-right: 25px;
+}
+
+.what_is_lorem_ipsum {
+    margin-top: 43px;
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.what_is_lorem_ipsum_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7FAFC;;
+}
+
+.what_is_lorem_ipsum_text > div {
+    width: 308px;
+}
+
+.what_is_lorem_ipsum_text > div > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.what_is_lorem_ipsum_text > div > p {
+    padding-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
+
+.what_is_lorem_ipsum_text > div > div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.what_is_lorem_ipsum_text > div > div > :first-child {    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+
+.what_is_lorem_ipsum_text > div > div > :last-child {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button > button {
+    width: 122px;
+    height: 37px;
+    background: #6B46C1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 43px;
+}
+
+.button > button > img {
+    padding-left: 8px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > div {
+    vertical-align: middle;
+}
+
+.footer > div > h1 {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 90px;
+    color: #000000;
+}
+
+.footer > div > h1 > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+
+    /* 600 */
+    color: black;
+}
+
+.footer > :last-child > img{
+    padding-left: 35px;
+}
+
+.footer > :last-child {
+    padding-right: 100px;
+}
+/*------------------------------------------ 
+Responsive Grid Media Queries - 1280, 1024, 768, 
+480 1280-1024 - desktop (default grid) 1024-768 - 
+tablet landscape 768-480 - tablet 480-less - 
+phone landscape & smaller 
+--------------------------------------------*/ 
+ /*------------------------------------------ 
+Responsive Grid Media Queries - 1280, 1024, 768, 
+480 1280-1024 - desktop (default grid) 1024-768 - 
+tablet landscape 768-480 - tablet 480-less - 
+phone landscape & smaller 
+--------------------------------------------*/ 
+@media all and (max-width: 1024px) {
+
+}
+.header_main_title {
+    line-height: 25px;
+}
+
+@media all and (max-width: 768px) {
+    .long_established {
+        border: 1px solid #E2E2E2;
+        width: 54%;
+        display: flex;
+        padding-left: 7px;
+        align-items: center;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    .header_main_title {
+        line-height: 25px;
+    }
+    .footer > div > h1 > p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 18px;
+        padding-left: 25px;
+        color: black;
+    }
+}
+
+@media all and (max-width: 240px) {
+    body {
+        font-size: 5px;
+    }
+    .header_main_title {
+        line-height: 25px;
+    }
+}
